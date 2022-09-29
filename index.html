@@ -1,53 +1,60 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
     <title>Andrew Barber's HTML Intro Exercise</title>
 </head>
 <body>
-    <section>
-        <h1>Andrew Barber</h1>
-        <p><img src="Andrew.jpg" alt="photo of Andrew Barber" title="Andrew Barber" style="width: 250px;" /></p>
-        <p><a href="http://truecoders.io/">TrueCoders</a> Full Stack Software Engineering student.</p>
-    </section>
-    <hr />
-    <section>
-        <h3>Contact Andrew</h3>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/andrew-barber-79b54a21a/">LinkedIn Profile</a></li>
-            <li>E-mail: <a href="mailto:not@all.com" title="Not sharing real email address in a public repository!">not@all.com</a></li>
-            <li>Phone: <a href="tel:301-123-4567" title="Not sharing real phone in a public repository!">301-123-4567</a></li>
-        </ul>
-    </section>
-    <hr />
-    <section>
-        <h3>Work History</h3>
-        <dl>
-            <dt>Rucci's Italian Deli</dt>
-            <dd><strong>2021-2022</strong> <em>Cook</em></dd>
-            <dt>Kinetic Networking</dt>
-            <dd><strong>2013-2015</strong> <em>Software Developer</em></dd>
-            <dt>Inkwell Creative Group</dt>
-            <dd><strong>2007-2013</strong> <em>Software Developer</em></dd>
-        </dl>
-    </section>
-    <section>
-        <h3>Education History</h3>
-        <dl>
-            <dt>TrueCoders</dt>
-            <dd><strong>2022</strong> <em>Full Stack Software Engineering</em></dd>
-            <dt>College of Southern Maryland</dt>
-            <dd><strong>1992</strong> <em>Political Science</em></dd>
-            <dt>Thomas Stone High School</dt>
-            <dd><strong>1990</strong> <em>High School Diploma</em></dd>
-        </dl>
-    </section>
-    <section>
-        <h3>Hobbies &amp; Interests</h3>
-        <ol>
-            <li>Astrophysics</li>
-            <li>Dungeons &amp; Dragons</li>
-            <li>Politics &amp; Activism</li>
-            <li>Heavy Metal Drumming</li>
-        </ol>
-    </section>
+    <div id="flexBox">
+        <section id="header">
+            <h1>Andrew Barber</h1>
+            <p><img src="Andrew.jpg" class="headshot" alt="photo of Andrew Barber" title="Andrew Barber" /></p>
+            <p><a href="http://truecoders.io/">TrueCoders</a> Full Stack Software Engineering student.</p>
+        </section>
+
+        <section>
+            <h3>Contact Andrew</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/andrew-barber-79b54a21a/">LinkedIn Profile</a></li>
+                <li>E-mail: <a href="mailto:not@all.com" title="Not sharing real email address in a public repository!">not@all.com</a></li>
+                <li>Phone: <a href="tel:301-123-4567" title="Not sharing real phone in a public repository!">301-123-4567</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Work History</h3>
+            <dl>
+                <dt>Rucci's Italian Deli</dt>
+                <dd><strong>2021-2022</strong> <em>Cook</em></dd>
+                <dt>Kinetic Networking</dt>
+                <dd><strong>2013-2015</strong> <em>Software Developer</em></dd>
+                <dt>Inkwell Creative Group</dt>
+                <dd><strong>2007-2013</strong> <em>Software Developer</em></dd>
+            </dl>
+        </section>
+
+        <section>
+            <h3>Education History</h3>
+            <dl>
+                <dt>TrueCoders</dt>
+                <dd><strong>2022</strong> <em>Full Stack Software Engineering</em></dd>
+                <dt>College of Southern Maryland</dt>
+                <dd><strong>1992</strong> <em>Political Science</em></dd>
+                <dt>Thomas Stone High School</dt>
+                <dd><strong>1990</strong> <em>High School Diploma</em></dd>
+            </dl>
+        </section>
+       
+        <section>
+            <h3>Hobbies &amp; Interests</h3>
+            <ol>
+                <li>Astrophysics</li>
+                <li>Dungeons &amp; Dragons</li>
+                <li>Politics &amp; Activism</li>
+                <li>Heavy Metal Drumming</li>
+            </ol>
+        </section>
+    </div>
 </body>
 </html>
