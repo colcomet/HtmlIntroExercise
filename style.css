@@ -1,11 +1,9 @@
-body {
-
-}
 #flexBox {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 section{
     flex: auto;
     width: 200px;
@@ -14,9 +12,11 @@ section{
     border: 1px gray;
     background: #EEE;
 }
+
 section#header{
     width: 400px;
 }
+
 .headshot{
     width: 150px;
 }
@@ -25,9 +25,7 @@ dt{
     margin-top: 10px;
     font-weight: bold;
 }
-li{
-    
-}
+
 dt, dd, li{
     margin-bottom: 5px;
 }
